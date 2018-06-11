@@ -1,9 +1,6 @@
 # Vector tiles hosting
 ## What do we do in this hands-on?
-
-1.
-2.
-3.
+In this hands-on, we host vector tiles in mbtiles via a simple server. We also host a simple site to use these vector tiles.
 
 # Software
 ## Recommended baseline software
@@ -220,5 +217,18 @@ $ ps aux | grep tile-block
 $ kill 8024; ./serve.sh
 ```
 
+### OpenLayers example
+If https://{server}:{port}/default/ works, https://{server}:{port}/default/openlayers.html will work with OpenLayers.
+
+### ArcGIS API for JavaScript 4 example
+
+
+### ArcGIS API for JavaScript 3 example
+
+
 ## Next steps
-### 
+### Add tiles for larger extent
+You can add vector tiles for larger extent by further [producing vector tiles](https://hfu.github.io/hands-on-prod/).
+
+### Change style
+You can edit style.json to change the style according to [Mapbox Style Specification](https://www.mapbox.com/mapbox-gl-js/style-spec/).

@@ -220,12 +220,6 @@ $ kill 8024; ./serve.sh
 ### OpenLayers example
 If https://{server}:{port}/default/ works, https://{server}:{port}/default/openlayers.html will work with OpenLayers.
 
-### ArcGIS API for JavaScript 4 example
-
-
-### ArcGIS API for JavaScript 3 example
-
-
 ## Next steps
 ### Add tiles for larger extent
 You can add vector tiles for larger extent by further [producing vector tiles](https://hfu.github.io/hands-on-prod/).

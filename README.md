@@ -100,7 +100,7 @@ In addition, if the {filename} is in the form of 5-{X}-{Y} and contains vector t
 
 You can change these behaviour by modifying [tile-block.js](https://github.com/hfu/tile-block/blob/master/tile-block.js).
 
-### update a HTML file
+### update a JSON file
 In the tile-block repository, all the files in the htdocs directory will be served. 
 
 We use htdocs/default/index.html and htdocs/default/style.json already in the repository.
@@ -207,6 +207,13 @@ $ node tile-block.js
 Your vector tiles will be displayed on https://{server}:{port}/default/ .
 
 Press Ctrl-C on console to stop the server.
+
+You can also change the port number by giving it as a command parameter, like:
+```console
+$ node tile-block.js 6666
+```
+
+This will start the server at the port 6666.
 
 For informatin, if you want to run the server even after you log-off, you can server.sh, and unix commands such as ps and kill. Below is a typical example. 
 
